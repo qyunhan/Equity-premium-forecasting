@@ -121,4 +121,4 @@ Cached forecasts are included for the 1-lag baseline. The 4-lag specification ne
 
 ## Team
 
-Built with Lin Ruiyu, Liu Yiwei and Wilbert Christopher Kurniawan. The rolling-window forecasting functions follow Medeiros et al. (2019).
+Built for a school project, part of a 4 men team
