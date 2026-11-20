@@ -1,0 +1,11 @@
+"series","observations","mean","sd","min","max","AR1"
+"Target: 1-month excess return",791,0.006,0.0444,-0.2319,0.1611,0.048
+"Target: 3-month excess return",789,0.0183,0.0789,-0.3126,0.2636,0.6855
+"Target: 6-month excess return",786,0.0373,0.1165,-0.4189,0.4254,0.8324
+"Target: 12-month excess return",780,0.0765,0.1702,-0.4931,0.6471,0.9169
+"T-bill return (monthly)",792,0.0036,0.0026,0,0.0135,0.9737
+"Spread: 1-year Treasury - fed funds",792,0.051,0.7499,-5,1.75,0.8699
+"Spread: 10-year Treasury - fed funds",792,0.9783,1.6028,-6.51,3.85,0.9551
+"Spread: Baa corporate - fed funds",792,2.9866,1.9996,-4.05,8.82,0.9713
+"S&P 500 dividend yield (transformed)",792,-0.0025,0.1158,-0.6357,0.5914,0.2649
+"Unemployment rate (transformed)",792,-0.0016,0.4294,-2.2,10.4,0.0259

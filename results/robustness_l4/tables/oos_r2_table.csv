@@ -1,0 +1,12 @@
+"Model","1-month OOS R2 (%)","3-month OOS R2 (%)","6-month OOS R2 (%)","12-month OOS R2 (%)"
+"Historical Mean (benchmark)",0,0,0,0
+"Full OLS",-560.03,-1136.14,-4145.23,-857.17
+"Ridge",0,0,0,0
+"LASSO",0,-0.8,1.1,1.4
+"Elastic Net",0,-0.68,1.99,0.14
+"PC + LASSO",0,-0.8,1.1,1.4
+"PLS",-25.57,-30.73,-17.59,-6.89
+"Bagging",-7.97,-7.5,-13.18,-10.99
+"Random Forest",-7.74,-7.97,-10.02,-8.71
+"Ensemble (average)",-2.4,-3.97,-2,2.86
+"Ensemble (GR)",0,0,0,0

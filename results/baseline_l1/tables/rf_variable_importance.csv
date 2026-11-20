@@ -1,0 +1,489 @@
+"horizon","variable","description","mean_IncMSE"
+"1-month","USWTRADE","Employment: wholesale trade",2.67472552036703
+"1-month","BAAFFM","Spread: Baa corporate - fed funds",2.54092777672027
+"1-month","CUMFNS","Capacity utilisation: manufacturing",2.4289121723069
+"1-month","PERMITW","Building permits: West",2.04006783554321
+"1-month","AAAFFM","Spread: Aaa corporate - fed funds",1.74668374463628
+"1-month","CUSR0000SA0L5","CPI: all items less medical care",1.70005613224967
+"1-month","MANEMP","Employment: manufacturing",1.68444671518208
+"1-month","DMANEMP","Employment: durable goods",1.67459621218557
+"1-month","PERMITS","Building permits: South",1.53257470708149
+"1-month","HOUST","Housing starts: total",1.46115032299344
+"1-month","IPCONGD","IP: consumer goods",1.42970131137587
+"1-month","USGOOD","Employment: goods-producing",1.42103063971766
+"1-month","CES0600000007","Weekly hours: goods-producing",1.27228579210777
+"1-month","IPMANSICS","IP: manufacturing",1.26768888405337
+"1-month","PERMIT","Building permits: total",1.25235917910399
+"1-month","NDMANEMP","Employment: nondurable goods",1.2179185481022
+"1-month","HOUSTW","Housing starts: West",1.17881068247684
+"1-month","IPNMAT","IP: nondurable materials",1.17502632687379
+"1-month","IPMAT","IP: materials",1.1705327768138
+"1-month","CMRMTSPLx","Real manufacturing & trade sales",1.15359490407049
+"1-month","USTPU","Employment: trade, transport & utilities",1.14035252179698
+"1-month","IPFPNSS","IP: final products & nonindustrial supplies",1.10556417216894
+"1-month","IPNCONGD","IP: nondurable consumer goods",1.10430293270447
+"1-month","S&P 500","S&P 500 index",1.10313155182097
+"1-month","CUSR0000SA0L2","CPI: all items less shelter",1.09855923237452
+"1-month","CES1021000001","Employment: mining & logging",1.09500343958573
+"1-month","DPCERA3M086SBEA","Real personal consumption",1.07143295443622
+"1-month","USCONS","Employment: construction",1.05854883786984
+"1-month","HOUSTS","Housing starts: South",1.05478189375876
+"1-month","CPITRNSL","CPI: transportation",1.04562351180955
+"1-month","COMPAPFFx","Spread: commercial paper - fed funds",1.04402643559215
+"1-month","S&P PE ratio","S&P 500 price-earnings ratio",1.02908792547465
+"1-month","HOUSTNE","Housing starts: Northeast",1.01787965978759
+"1-month","INDPRO","Industrial production (total)",0.996230152777517
+"1-month","AWHMAN","Weekly hours: manufacturing",0.987435492578548
+"1-month","T10YFFM","Spread: 10-year Treasury - fed funds",0.985553900669224
+"1-month","USTRADE","Employment: retail trade",0.978967876506119
+"1-month","BAA","Baa corporate bond yield",0.961827281310851
+"1-month","T1YFFM","Spread: 1-year Treasury - fed funds",0.93156412555198
+"1-month","PAYEMS","Employment: total nonfarm",0.907268799791418
+"1-month","UEMP27OV","Unemployed 27+ weeks",0.898002572078544
+"1-month","CPIAUCSL","CPI: all items",0.89670270197567
+"1-month","BUSINVx","Business inventories",0.895617442241984
+"1-month","IPFINAL","IP: final products",0.892301939699712
+"1-month","IPDMAT","IP: durable materials",0.880742053284295
+"1-month","TB3SMFFM","Spread: 3-month T-bill - fed funds",0.864766254260237
+"1-month","T5YFFM","Spread: 5-year Treasury - fed funds",0.828526116842662
+"1-month","RETAILx","Retail & food services sales",0.826192270373223
+"1-month","FEDFUNDS","Fed funds rate",0.799940684129434
+"1-month","NONBORRES","Nonborrowed reserves",0.793749398452939
+"1-month","CE16OV","Civilian employment",0.766017509696368
+"1-month","TB6SMFFM","Spread: 6-month T-bill - fed funds",0.760854321920279
+"1-month","CP3Mx","3-month commercial paper rate",0.749428736030688
+"1-month","PERMITMW","Building permits: Midwest",0.731884265472464
+"1-month","AMDMUOx","Unfilled orders: durable goods",0.729862603248624
+"1-month","S&P div yield","S&P 500 dividend yield",0.724482164724521
+"1-month","CUSR0000SAC","CPI: commodities",0.71405217228307
+"1-month","TB6MS","6-month T-bill rate",0.693212522712713
+"1-month","WPSFD49207","PPI: finished goods",0.674541490669865
+"1-month","HWI","Help-wanted index",0.647722973430131
+"1-month","TOTRESNS","Total bank reserves",0.639123252092018
+"1-month","SRVPRD","Employment: service-providing",0.630791135480278
+"1-month","AAA","Aaa corporate bond yield",0.584517195146388
+"1-month","CUSR0000SAD","CPI: durables",0.564916372637723
+"1-month","IPBUSEQ","IP: business equipment",0.543949423008413
+"1-month","WPSFD49502","PPI: finished consumer goods",0.531733559129525
+"1-month","TB3MS","3-month T-bill rate",0.525710036037407
+"1-month","PERMITNE","Building permits: Northeast",0.482396109230561
+"1-month","M2REAL","Real M2 money stock",0.464762828536809
+"1-month","CPIULFSL","CPI: all items less food",0.464218513259677
+"1-month","GS1","1-year Treasury yield",0.453347555933047
+"1-month","WPSID61","PPI: intermediate materials",0.417360578108424
+"1-month","ISRATIOx","Inventories / sales ratio",0.396723363125217
+"1-month","AMDMNOx","New orders: durable goods",0.348104355978315
+"1-month","EXUSUKx","Exchange rate: USD per pound",0.320181980639818
+"1-month","W875RX1","Real personal income excl. transfers",0.302636504810978
+"1-month","UEMP15OV","Unemployed 15+ weeks",0.289899551280474
+"1-month","IPB51222S","IP: residential utilities",0.272350577743665
+"1-month","GS10","10-year Treasury yield",0.227968554358159
+"1-month","GS5","5-year Treasury yield",0.226723161065858
+"1-month","EXJPUSx","Exchange rate: yen per USD",0.205073273771992
+"1-month","USFIRE","Employment: financial activities",0.201577104509627
+"1-month","UNRATE","Unemployment rate",0.186904314705504
+"1-month","INVEST","Securities in bank credit",0.167892304821438
+"1-month","DNDGRG3M086SBEA","PCE prices: nondurable goods",0.159909225975161
+"1-month","IPDCONGD","IP: durable consumer goods",0.127168742565751
+"1-month","DTCTHFNM","Total consumer loans & leases",0.0899848295697233
+"1-month","UEMPMEAN","Average duration of unemployment",0.0567794182650737
+"1-month","PCEPI","PCE price index",0.0369034882754517
+"1-month","HWIURATIO","Help-wanted / unemployed ratio",0.0274818932235493
+"1-month","BOGMBASE","Monetary base",-0.0588252831470392
+"1-month","EXCAUSx","Exchange rate: Canadian dollar per USD",-0.0667782595582997
+"1-month","M2SL","M2 money stock",-0.117377945463442
+"1-month","HOUSTMW","Housing starts: Midwest",-0.122327776194184
+"1-month","NONREVSL","Nonrevolving consumer credit",-0.139843398087105
+"1-month","AWOTMAN","Weekly overtime hours: manufacturing",-0.167296998148964
+"1-month","DDURRG3M086SBEA","PCE prices: durable goods",-0.170354819975899
+"1-month","CLAIMSx","Initial unemployment claims",-0.173361101700844
+"1-month","REALLN","Real estate loans",-0.21591410390213
+"1-month","CPIMEDSL","CPI: medical care",-0.225666210420583
+"1-month","CLF16OV","Civilian labour force",-0.248835809219166
+"1-month","IPFUELS","IP: fuels",-0.269533357397852
+"1-month","PPICMM","PPI: metals",-0.273835225574275
+"1-month","CUSR0000SAS","CPI: services",-0.36401127548291
+"1-month","OILPRICEx","Crude oil price",-0.377720927986304
+"1-month","BUSLOANS","Commercial & industrial loans",-0.378166835292537
+"1-month","DTCOLNVHFNM","Consumer motor vehicle loans",-0.378431827269171
+"1-month","CES0600000008","Hourly earnings: goods-producing",-0.405744090211056
+"1-month","CES2000000008","Hourly earnings: construction",-0.408581582400848
+"1-month","UEMP15T26","Unemployed 15-26 weeks",-0.425508563431193
+"1-month","WPSID62","PPI: crude materials",-0.426018167400093
+"1-month","UEMP5TO14","Unemployed 5-14 weeks",-0.441474020625212
+"1-month","CPIAPPSL","CPI: apparel",-0.456814387005603
+"1-month","M1SL","M1 money stock",-0.456835398247596
+"1-month","CES3000000008","Hourly earnings: manufacturing",-0.477339069734145
+"1-month","DSERRG3M086SBEA","PCE prices: services",-0.552407260642424
+"1-month","CONSPI","Consumer credit / personal income",-0.567730645873784
+"1-month","RPI","Real personal income",-0.669599938471883
+"1-month","UEMPLT5","Unemployed < 5 weeks",-0.721721987068268
+"1-month","EXSZUSx","Exchange rate: Swiss franc per USD",-0.931095872365697
+"1-month","USGOVT","Employment: government",-0.937211074957669
+"1-month","Mkt_RF","Market excess return (this month)",-1.0113813041178
+"3-month","DMANEMP","Employment: durable goods",6.79617090787778
+"3-month","MANEMP","Employment: manufacturing",5.53608196740294
+"3-month","BAAFFM","Spread: Baa corporate - fed funds",5.05590644880257
+"3-month","CES0600000007","Weekly hours: goods-producing",5.0115386987482
+"3-month","AAAFFM","Spread: Aaa corporate - fed funds",4.60463265469429
+"3-month","T1YFFM","Spread: 1-year Treasury - fed funds",4.20729963002332
+"3-month","IPNMAT","IP: nondurable materials",4.17951411704434
+"3-month","USGOOD","Employment: goods-producing",4.01341817874237
+"3-month","PERMIT","Building permits: total",3.95045409150549
+"3-month","T5YFFM","Spread: 5-year Treasury - fed funds",3.77217439961988
+"3-month","PERMITS","Building permits: South",3.69102011027893
+"3-month","USWTRADE","Employment: wholesale trade",3.50822780939183
+"3-month","HOUST","Housing starts: total",3.50220426242501
+"3-month","T10YFFM","Spread: 10-year Treasury - fed funds",3.40665156119912
+"3-month","CES1021000001","Employment: mining & logging",3.34690562725742
+"3-month","TB6SMFFM","Spread: 6-month T-bill - fed funds",3.23354363355639
+"3-month","AWHMAN","Weekly hours: manufacturing",3.12840210617409
+"3-month","PERMITW","Building permits: West",2.95789207074155
+"3-month","CE16OV","Civilian employment",2.9197318417503
+"3-month","S&P PE ratio","S&P 500 price-earnings ratio",2.71920486058188
+"3-month","PERMITNE","Building permits: Northeast",2.60902027537234
+"3-month","AMDMUOx","Unfilled orders: durable goods",2.49308306201787
+"3-month","HOUSTS","Housing starts: South",2.44873313985688
+"3-month","FEDFUNDS","Fed funds rate",2.43667091383702
+"3-month","BAA","Baa corporate bond yield",2.40172186933102
+"3-month","TB3SMFFM","Spread: 3-month T-bill - fed funds",2.27159757964152
+"3-month","CP3Mx","3-month commercial paper rate",2.27142044163213
+"3-month","NDMANEMP","Employment: nondurable goods",2.25991923720616
+"3-month","TB3MS","3-month T-bill rate",2.2259585913843
+"3-month","S&P 500","S&P 500 index",2.19411598556684
+"3-month","S&P div yield","S&P 500 dividend yield",2.02520172198974
+"3-month","BUSINVx","Business inventories",1.90373009794483
+"3-month","HOUSTW","Housing starts: West",1.88791794756748
+"3-month","PERMITMW","Building permits: Midwest",1.84312261971912
+"3-month","EXJPUSx","Exchange rate: yen per USD",1.83167895298057
+"3-month","HOUSTMW","Housing starts: Midwest",1.77590928951798
+"3-month","HOUSTNE","Housing starts: Northeast",1.73400059861389
+"3-month","CUSR0000SA0L5","CPI: all items less medical care",1.71793886728165
+"3-month","COMPAPFFx","Spread: commercial paper - fed funds",1.69337307049775
+"3-month","PAYEMS","Employment: total nonfarm",1.68974994600614
+"3-month","TB6MS","6-month T-bill rate",1.66374747533448
+"3-month","IPDMAT","IP: durable materials",1.51181219748608
+"3-month","IPMAT","IP: materials",1.43320931805423
+"3-month","GS1","1-year Treasury yield",1.40479915019744
+"3-month","SRVPRD","Employment: service-providing",1.31276590983695
+"3-month","IPCONGD","IP: consumer goods",1.30716587058715
+"3-month","NONBORRES","Nonborrowed reserves",1.22722600016251
+"3-month","IPFINAL","IP: final products",1.21110817420467
+"3-month","USCONS","Employment: construction",1.12847421039895
+"3-month","INDPRO","Industrial production (total)",1.1098067097893
+"3-month","IPFPNSS","IP: final products & nonindustrial supplies",1.0890994652627
+"3-month","CPITRNSL","CPI: transportation",1.07873144679835
+"3-month","GS10","10-year Treasury yield",1.07836441877254
+"3-month","USTPU","Employment: trade, transport & utilities",1.0736071064003
+"3-month","IPMANSICS","IP: manufacturing",1.04677080536753
+"3-month","DNDGRG3M086SBEA","PCE prices: nondurable goods",1.00021690556708
+"3-month","CUMFNS","Capacity utilisation: manufacturing",0.953777765977305
+"3-month","AAA","Aaa corporate bond yield",0.947064633964979
+"3-month","UEMP15OV","Unemployed 15+ weeks",0.899689208228256
+"3-month","IPB51222S","IP: residential utilities",0.801132309588797
+"3-month","CUSR0000SA0L2","CPI: all items less shelter",0.785108446369172
+"3-month","GS5","5-year Treasury yield",0.744701439523917
+"3-month","CPIAUCSL","CPI: all items",0.720350903419531
+"3-month","IPNCONGD","IP: nondurable consumer goods",0.704390497567602
+"3-month","UEMPMEAN","Average duration of unemployment",0.690714309641937
+"3-month","USFIRE","Employment: financial activities",0.669953534826504
+"3-month","WPSID62","PPI: crude materials",0.652259089647685
+"3-month","USTRADE","Employment: retail trade",0.601210555584329
+"3-month","UEMP27OV","Unemployed 27+ weeks",0.556025377941409
+"3-month","USGOVT","Employment: government",0.553192237436854
+"3-month","M2REAL","Real M2 money stock",0.535701647050765
+"3-month","CPIULFSL","CPI: all items less food",0.515800704767139
+"3-month","WPSFD49207","PPI: finished goods",0.492156829896603
+"3-month","CLAIMSx","Initial unemployment claims",0.470721919271717
+"3-month","UNRATE","Unemployment rate",0.468504285034036
+"3-month","TOTRESNS","Total bank reserves",0.415672797033174
+"3-month","WPSID61","PPI: intermediate materials",0.395255748362005
+"3-month","PCEPI","PCE price index",0.351724628219108
+"3-month","IPDCONGD","IP: durable consumer goods",0.350431132786765
+"3-month","ISRATIOx","Inventories / sales ratio",0.315944599553437
+"3-month","DPCERA3M086SBEA","Real personal consumption",0.315052982819742
+"3-month","CLF16OV","Civilian labour force",0.309612725763592
+"3-month","EXCAUSx","Exchange rate: Canadian dollar per USD",0.308082546084454
+"3-month","UEMPLT5","Unemployed < 5 weeks",0.295251756989228
+"3-month","Mkt_RF","Market excess return (this month)",0.26775581027885
+"3-month","CUSR0000SAC","CPI: commodities",0.249258772749384
+"3-month","BOGMBASE","Monetary base",0.200509567920249
+"3-month","WPSFD49502","PPI: finished consumer goods",0.199502331192711
+"3-month","EXSZUSx","Exchange rate: Swiss franc per USD",0.090555441437116
+"3-month","AWOTMAN","Weekly overtime hours: manufacturing",0.0478831498496555
+"3-month","W875RX1","Real personal income excl. transfers",0.0376030845812374
+"3-month","RETAILx","Retail & food services sales",-0.0219910721251367
+"3-month","IPFUELS","IP: fuels",-0.0387929711654972
+"3-month","CUSR0000SAS","CPI: services",-0.0391591918251266
+"3-month","PPICMM","PPI: metals",-0.0976429417715519
+"3-month","INVEST","Securities in bank credit",-0.103230096853667
+"3-month","EXUSUKx","Exchange rate: USD per pound",-0.13896473017145
+"3-month","CES2000000008","Hourly earnings: construction",-0.139138141708946
+"3-month","HWIURATIO","Help-wanted / unemployed ratio",-0.146999995056065
+"3-month","HWI","Help-wanted index",-0.153523396060753
+"3-month","CONSPI","Consumer credit / personal income",-0.176774308227223
+"3-month","DSERRG3M086SBEA","PCE prices: services",-0.196809125303698
+"3-month","CMRMTSPLx","Real manufacturing & trade sales",-0.20401887075354
+"3-month","UEMP5TO14","Unemployed 5-14 weeks",-0.238543502880268
+"3-month","DTCOLNVHFNM","Consumer motor vehicle loans",-0.285930605255845
+"3-month","M2SL","M2 money stock",-0.326898108792518
+"3-month","NONREVSL","Nonrevolving consumer credit",-0.362029850657386
+"3-month","UEMP15T26","Unemployed 15-26 weeks",-0.375037339884081
+"3-month","BUSLOANS","Commercial & industrial loans",-0.378808551398185
+"3-month","DDURRG3M086SBEA","PCE prices: durable goods",-0.437561180365158
+"3-month","OILPRICEx","Crude oil price",-0.448960807614466
+"3-month","M1SL","M1 money stock",-0.471967843614991
+"3-month","CPIMEDSL","CPI: medical care",-0.474330441576336
+"3-month","CUSR0000SAD","CPI: durables",-0.491170167757661
+"3-month","CES3000000008","Hourly earnings: manufacturing",-0.511663484453083
+"3-month","DTCTHFNM","Total consumer loans & leases",-0.566000370334947
+"3-month","AMDMNOx","New orders: durable goods",-0.605638954925768
+"3-month","CES0600000008","Hourly earnings: goods-producing",-0.620088562376447
+"3-month","REALLN","Real estate loans",-0.629477477679214
+"3-month","CPIAPPSL","CPI: apparel",-0.637112806056476
+"3-month","IPBUSEQ","IP: business equipment",-0.689077588633925
+"3-month","RPI","Real personal income",-0.739933170283467
+"6-month","CES1021000001","Employment: mining & logging",9.9016552150711
+"6-month","USWTRADE","Employment: wholesale trade",8.86599886515329
+"6-month","T1YFFM","Spread: 1-year Treasury - fed funds",7.96955324904821
+"6-month","T10YFFM","Spread: 10-year Treasury - fed funds",6.98097399295446
+"6-month","T5YFFM","Spread: 5-year Treasury - fed funds",6.85868842094028
+"6-month","DMANEMP","Employment: durable goods",6.70760800517887
+"6-month","CES0600000007","Weekly hours: goods-producing",6.10727864473556
+"6-month","TB6SMFFM","Spread: 6-month T-bill - fed funds",5.99440707918647
+"6-month","PERMITNE","Building permits: Northeast",5.89921712939287
+"6-month","BAAFFM","Spread: Baa corporate - fed funds",5.79567807465031
+"6-month","MANEMP","Employment: manufacturing",5.57444129400514
+"6-month","AWHMAN","Weekly hours: manufacturing",5.49196227778041
+"6-month","AAAFFM","Spread: Aaa corporate - fed funds",5.48333350012962
+"6-month","PERMITW","Building permits: West",5.3574258974923
+"6-month","PERMIT","Building permits: total",5.14476070436133
+"6-month","TB3SMFFM","Spread: 3-month T-bill - fed funds",4.97054585974631
+"6-month","USGOOD","Employment: goods-producing",4.87693060178309
+"6-month","PERMITS","Building permits: South",4.84074140185699
+"6-month","HOUSTS","Housing starts: South",4.42277623457611
+"6-month","USTPU","Employment: trade, transport & utilities",4.181807314647
+"6-month","HOUST","Housing starts: total",4.07024958444648
+"6-month","PERMITMW","Building permits: Midwest",4.04514613206421
+"6-month","BUSINVx","Business inventories",3.77560375255888
+"6-month","S&P PE ratio","S&P 500 price-earnings ratio",3.53703814784953
+"6-month","PAYEMS","Employment: total nonfarm",3.42558931663398
+"6-month","TB3MS","3-month T-bill rate",3.41625848672778
+"6-month","HOUSTNE","Housing starts: Northeast",3.2675258621403
+"6-month","USGOVT","Employment: government",3.26519826595359
+"6-month","SRVPRD","Employment: service-providing",3.08749053449423
+"6-month","TB6MS","6-month T-bill rate",3.07215388095686
+"6-month","FEDFUNDS","Fed funds rate",3.06763969992445
+"6-month","NONBORRES","Nonborrowed reserves",3.04886517159339
+"6-month","USCONS","Employment: construction",2.99949171597467
+"6-month","BAA","Baa corporate bond yield",2.97384420587984
+"6-month","IPNMAT","IP: nondurable materials",2.9683504272733
+"6-month","HOUSTW","Housing starts: West",2.83630964823929
+"6-month","AMDMUOx","Unfilled orders: durable goods",2.8091490313373
+"6-month","COMPAPFFx","Spread: commercial paper - fed funds",2.65964110217927
+"6-month","GS1","1-year Treasury yield",2.37549160144952
+"6-month","CP3Mx","3-month commercial paper rate",2.35255413440228
+"6-month","HOUSTMW","Housing starts: Midwest",2.29320685748319
+"6-month","IPMAT","IP: materials",2.12020595227013
+"6-month","NDMANEMP","Employment: nondurable goods",2.11099732173034
+"6-month","S&P div yield","S&P 500 dividend yield",2.0317678027727
+"6-month","TOTRESNS","Total bank reserves",1.97717839915988
+"6-month","IPDMAT","IP: durable materials",1.86934595111974
+"6-month","USTRADE","Employment: retail trade",1.83899197300443
+"6-month","Mkt_RF","Market excess return (this month)",1.36636732290481
+"6-month","INDPRO","Industrial production (total)",1.33297165752138
+"6-month","AAA","Aaa corporate bond yield",1.31348511690477
+"6-month","CUSR0000SA0L5","CPI: all items less medical care",1.28301889483193
+"6-month","GS10","10-year Treasury yield",1.2119803416585
+"6-month","USFIRE","Employment: financial activities",1.19168151851795
+"6-month","S&P 500","S&P 500 index",1.16898032888911
+"6-month","GS5","5-year Treasury yield",1.1671305910159
+"6-month","CE16OV","Civilian employment",1.0727769514771
+"6-month","M2REAL","Real M2 money stock",1.06366161559543
+"6-month","IPMANSICS","IP: manufacturing",1.02091783947801
+"6-month","DNDGRG3M086SBEA","PCE prices: nondurable goods",1.00874492273602
+"6-month","EXJPUSx","Exchange rate: yen per USD",0.978340163498586
+"6-month","BOGMBASE","Monetary base",0.882727522018289
+"6-month","CUSR0000SAC","CPI: commodities",0.821426141093263
+"6-month","CPIAUCSL","CPI: all items",0.678061273364929
+"6-month","UNRATE","Unemployment rate",0.633784034708504
+"6-month","CPIULFSL","CPI: all items less food",0.523406690867471
+"6-month","CUSR0000SA0L2","CPI: all items less shelter",0.522229893498038
+"6-month","CUMFNS","Capacity utilisation: manufacturing",0.509231560640238
+"6-month","UEMPMEAN","Average duration of unemployment",0.498914708502782
+"6-month","IPB51222S","IP: residential utilities",0.463800177042136
+"6-month","IPFPNSS","IP: final products & nonindustrial supplies",0.462167489422233
+"6-month","DPCERA3M086SBEA","Real personal consumption",0.454046238024928
+"6-month","CONSPI","Consumer credit / personal income",0.411009805728371
+"6-month","ISRATIOx","Inventories / sales ratio",0.389983970344297
+"6-month","IPFINAL","IP: final products",0.389976240112031
+"6-month","RETAILx","Retail & food services sales",0.3459974242671
+"6-month","IPBUSEQ","IP: business equipment",0.307235674821343
+"6-month","UEMP27OV","Unemployed 27+ weeks",0.286779110471167
+"6-month","WPSFD49502","PPI: finished consumer goods",0.263662657822459
+"6-month","W875RX1","Real personal income excl. transfers",0.118223612996014
+"6-month","EXUSUKx","Exchange rate: USD per pound",0.102431612736785
+"6-month","EXSZUSx","Exchange rate: Swiss franc per USD",0.0581720912675902
+"6-month","WPSFD49207","PPI: finished goods",0.0435282359068109
+"6-month","HWIURATIO","Help-wanted / unemployed ratio",0.0218196381884696
+"6-month","IPCONGD","IP: consumer goods",0.00745133129419663
+"6-month","CMRMTSPLx","Real manufacturing & trade sales",0.0073292663816673
+"6-month","UEMP15OV","Unemployed 15+ weeks",0.000584659939335612
+"6-month","CPITRNSL","CPI: transportation",-0.00142147243328397
+"6-month","IPDCONGD","IP: durable consumer goods",-0.00688615567205421
+"6-month","AWOTMAN","Weekly overtime hours: manufacturing",-0.0158133007995443
+"6-month","EXCAUSx","Exchange rate: Canadian dollar per USD",-0.0283458859385182
+"6-month","M2SL","M2 money stock",-0.0578843483621402
+"6-month","CES2000000008","Hourly earnings: construction",-0.0595739034943048
+"6-month","PCEPI","PCE price index",-0.0697527501160454
+"6-month","CPIMEDSL","CPI: medical care",-0.146706424485049
+"6-month","IPFUELS","IP: fuels",-0.15208224437191
+"6-month","DTCOLNVHFNM","Consumer motor vehicle loans",-0.226513472611813
+"6-month","IPNCONGD","IP: nondurable consumer goods",-0.245471382387294
+"6-month","CPIAPPSL","CPI: apparel",-0.250479468653404
+"6-month","BUSLOANS","Commercial & industrial loans",-0.250958533181499
+"6-month","NONREVSL","Nonrevolving consumer credit",-0.258290880860869
+"6-month","OILPRICEx","Crude oil price",-0.287418591633649
+"6-month","WPSID62","PPI: crude materials",-0.316239457151811
+"6-month","WPSID61","PPI: intermediate materials",-0.332510578143364
+"6-month","M1SL","M1 money stock",-0.360340113587269
+"6-month","REALLN","Real estate loans",-0.383428318249387
+"6-month","DSERRG3M086SBEA","PCE prices: services",-0.452541607542067
+"6-month","INVEST","Securities in bank credit",-0.457111698103442
+"6-month","CUSR0000SAS","CPI: services",-0.461775568035664
+"6-month","CLAIMSx","Initial unemployment claims",-0.477321618882546
+"6-month","UEMP5TO14","Unemployed 5-14 weeks",-0.49017261450113
+"6-month","HWI","Help-wanted index",-0.544905123059662
+"6-month","DTCTHFNM","Total consumer loans & leases",-0.550366648116665
+"6-month","CES0600000008","Hourly earnings: goods-producing",-0.550545125770946
+"6-month","CUSR0000SAD","CPI: durables",-0.560473398150923
+"6-month","AMDMNOx","New orders: durable goods",-0.585479811241819
+"6-month","UEMPLT5","Unemployed < 5 weeks",-0.653523429625222
+"6-month","DDURRG3M086SBEA","PCE prices: durable goods",-0.660047981997757
+"6-month","PPICMM","PPI: metals",-0.686247346010146
+"6-month","CES3000000008","Hourly earnings: manufacturing",-0.764421195287796
+"6-month","UEMP15T26","Unemployed 15-26 weeks",-0.865256543782029
+"6-month","CLF16OV","Civilian labour force",-0.876929218253132
+"6-month","RPI","Real personal income",-1.04738836429635
+"12-month","T1YFFM","Spread: 1-year Treasury - fed funds",12.2795909395655
+"12-month","T5YFFM","Spread: 5-year Treasury - fed funds",11.9835949951993
+"12-month","T10YFFM","Spread: 10-year Treasury - fed funds",11.0510234673079
+"12-month","PERMIT","Building permits: total",9.64308887134444
+"12-month","PERMITW","Building permits: West",9.49806349919342
+"12-month","PERMITS","Building permits: South",8.53519563976421
+"12-month","HOUST","Housing starts: total",8.00490180984972
+"12-month","PERMITMW","Building permits: Midwest",7.94595737645586
+"12-month","HOUSTW","Housing starts: West",7.82396171949859
+"12-month","AWHMAN","Weekly hours: manufacturing",7.42623998884642
+"12-month","CES1021000001","Employment: mining & logging",7.16459190130624
+"12-month","TB6SMFFM","Spread: 6-month T-bill - fed funds",6.98543807035274
+"12-month","CES0600000007","Weekly hours: goods-producing",6.86905666086192
+"12-month","HOUSTS","Housing starts: South",6.80825106812049
+"12-month","USWTRADE","Employment: wholesale trade",6.68976628730572
+"12-month","AAAFFM","Spread: Aaa corporate - fed funds",6.49339795231676
+"12-month","BAAFFM","Spread: Baa corporate - fed funds",6.47459186203852
+"12-month","PERMITNE","Building permits: Northeast",6.32260143892445
+"12-month","USTPU","Employment: trade, transport & utilities",6.02837706661042
+"12-month","TB3SMFFM","Spread: 3-month T-bill - fed funds",5.77084118132843
+"12-month","USFIRE","Employment: financial activities",5.34291839980024
+"12-month","USGOVT","Employment: government",5.33037993505159
+"12-month","NDMANEMP","Employment: nondurable goods",5.28782800524771
+"12-month","BUSINVx","Business inventories",5.2563587446787
+"12-month","USGOOD","Employment: goods-producing",5.21818777954524
+"12-month","PAYEMS","Employment: total nonfarm",5.20811146470181
+"12-month","HOUSTMW","Housing starts: Midwest",5.08653979034024
+"12-month","DMANEMP","Employment: durable goods",4.97685574262443
+"12-month","COMPAPFFx","Spread: commercial paper - fed funds",4.78985485986973
+"12-month","SRVPRD","Employment: service-providing",4.64753586808312
+"12-month","HOUSTNE","Housing starts: Northeast",4.6345246139537
+"12-month","MANEMP","Employment: manufacturing",4.36117146073739
+"12-month","AMDMUOx","Unfilled orders: durable goods",4.13640270575718
+"12-month","USTRADE","Employment: retail trade",3.2006563188405
+"12-month","IPNMAT","IP: nondurable materials",3.14974130801948
+"12-month","S&P PE ratio","S&P 500 price-earnings ratio",2.93823943748637
+"12-month","USCONS","Employment: construction",2.90264580402377
+"12-month","NONBORRES","Nonborrowed reserves",2.52179925354537
+"12-month","S&P div yield","S&P 500 dividend yield",2.4967135891315
+"12-month","FEDFUNDS","Fed funds rate",2.46472482974301
+"12-month","IPDMAT","IP: durable materials",2.20033963745845
+"12-month","M2REAL","Real M2 money stock",2.12738788512185
+"12-month","TB3MS","3-month T-bill rate",1.98087393474212
+"12-month","TB6MS","6-month T-bill rate",1.87925147655901
+"12-month","CUSR0000SA0L5","CPI: all items less medical care",1.85622152360834
+"12-month","CP3Mx","3-month commercial paper rate",1.81858953406308
+"12-month","CONSPI","Consumer credit / personal income",1.79417919190512
+"12-month","CPITRNSL","CPI: transportation",1.63998888534869
+"12-month","HWIURATIO","Help-wanted / unemployed ratio",1.58398023061836
+"12-month","M1SL","M1 money stock",1.47901126778508
+"12-month","BOGMBASE","Monetary base",1.46217125867785
+"12-month","Mkt_RF","Market excess return (this month)",1.45437883197579
+"12-month","GS1","1-year Treasury yield",1.31632765660639
+"12-month","IPMAT","IP: materials",1.30399231936868
+"12-month","IPMANSICS","IP: manufacturing",1.20906131008611
+"12-month","S&P 500","S&P 500 index",1.2026924610557
+"12-month","IPBUSEQ","IP: business equipment",1.2013460242305
+"12-month","CUSR0000SAC","CPI: commodities",1.17708374384086
+"12-month","GS10","10-year Treasury yield",1.14634874064439
+"12-month","CUMFNS","Capacity utilisation: manufacturing",1.13423738547694
+"12-month","UNRATE","Unemployment rate",1.07166550134884
+"12-month","TOTRESNS","Total bank reserves",0.979609463388021
+"12-month","CPIULFSL","CPI: all items less food",0.9676520259892
+"12-month","DNDGRG3M086SBEA","PCE prices: nondurable goods",0.965193499759234
+"12-month","BAA","Baa corporate bond yield",0.931171077609717
+"12-month","CES2000000008","Hourly earnings: construction",0.913467206797074
+"12-month","ISRATIOx","Inventories / sales ratio",0.886116455881814
+"12-month","INDPRO","Industrial production (total)",0.87933251741713
+"12-month","CMRMTSPLx","Real manufacturing & trade sales",0.794168192911417
+"12-month","IPDCONGD","IP: durable consumer goods",0.753080622399483
+"12-month","IPFPNSS","IP: final products & nonindustrial supplies",0.73666990595349
+"12-month","CUSR0000SA0L2","CPI: all items less shelter",0.720878293829222
+"12-month","CPIAUCSL","CPI: all items",0.70790937268498
+"12-month","DPCERA3M086SBEA","Real personal consumption",0.701398554802948
+"12-month","UEMP5TO14","Unemployed 5-14 weeks",0.67487719679704
+"12-month","RETAILx","Retail & food services sales",0.674046263449191
+"12-month","UEMP27OV","Unemployed 27+ weeks",0.652441152970716
+"12-month","M2SL","M2 money stock",0.604308870341345
+"12-month","GS5","5-year Treasury yield",0.526938299851709
+"12-month","AAA","Aaa corporate bond yield",0.526781437190991
+"12-month","EXJPUSx","Exchange rate: yen per USD",0.470958504987932
+"12-month","UEMP15OV","Unemployed 15+ weeks",0.435574235305001
+"12-month","UEMPMEAN","Average duration of unemployment",0.400492462745153
+"12-month","WPSID62","PPI: crude materials",0.370955373105556
+"12-month","IPFINAL","IP: final products",0.343665544257792
+"12-month","W875RX1","Real personal income excl. transfers",0.32401069957622
+"12-month","CLAIMSx","Initial unemployment claims",0.318233856908238
+"12-month","IPFUELS","IP: fuels",0.208382730347089
+"12-month","IPCONGD","IP: consumer goods",0.20170017524484
+"12-month","HWI","Help-wanted index",0.175622011823589
+"12-month","BUSLOANS","Commercial & industrial loans",0.112227451250132
+"12-month","EXCAUSx","Exchange rate: Canadian dollar per USD",0.111881931800275
+"12-month","DSERRG3M086SBEA","PCE prices: services",0.0709203317036596
+"12-month","EXUSUKx","Exchange rate: USD per pound",0.0697915453235744
+"12-month","AWOTMAN","Weekly overtime hours: manufacturing",-0.00927148524098264
+"12-month","WPSID61","PPI: intermediate materials",-0.085566493681696
+"12-month","CUSR0000SAD","CPI: durables",-0.0879902335720562
+"12-month","AMDMNOx","New orders: durable goods",-0.088610017755246
+"12-month","CES3000000008","Hourly earnings: manufacturing",-0.107221830194625
+"12-month","CPIMEDSL","CPI: medical care",-0.109324207073248
+"12-month","PCEPI","PCE price index",-0.110737340975648
+"12-month","IPB51222S","IP: residential utilities",-0.110747130533597
+"12-month","WPSFD49207","PPI: finished goods",-0.114983759872206
+"12-month","WPSFD49502","PPI: finished consumer goods",-0.151942563863578
+"12-month","CES0600000008","Hourly earnings: goods-producing",-0.162969253213859
+"12-month","CE16OV","Civilian employment",-0.217968737517734
+"12-month","OILPRICEx","Crude oil price",-0.23178516363937
+"12-month","REALLN","Real estate loans",-0.253769566757491
+"12-month","INVEST","Securities in bank credit",-0.267987211391352
+"12-month","CUSR0000SAS","CPI: services",-0.314266146081531
+"12-month","RPI","Real personal income",-0.440471129832037
+"12-month","UEMP15T26","Unemployed 15-26 weeks",-0.462916954504222
+"12-month","NONREVSL","Nonrevolving consumer credit",-0.465059505090674
+"12-month","CLF16OV","Civilian labour force",-0.48233683089858
+"12-month","EXSZUSx","Exchange rate: Swiss franc per USD",-0.491661884226898
+"12-month","DTCOLNVHFNM","Consumer motor vehicle loans",-0.496261048050018
+"12-month","IPNCONGD","IP: nondurable consumer goods",-0.505468821698706
+"12-month","DDURRG3M086SBEA","PCE prices: durable goods",-0.55102871177161
+"12-month","DTCTHFNM","Total consumer loans & leases",-0.579018582571072
+"12-month","PPICMM","PPI: metals",-0.582762420152637
+"12-month","CPIAPPSL","CPI: apparel",-0.643860134622706
+"12-month","UEMPLT5","Unemployed < 5 weeks",-0.6950282535746

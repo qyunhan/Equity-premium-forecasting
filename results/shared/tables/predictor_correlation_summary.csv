@@ -1,0 +1,2 @@
+"sample_start","sample_end","observations","predictors","unique_pairs","mean_absolute_correlation","median_absolute_correlation","maximum_absolute_correlation","pairs_abs_r_ge_0_5","pct_pairs_abs_r_ge_0_5","pairs_abs_r_ge_0_8","pct_pairs_abs_r_ge_0_8","pairs_abs_r_ge_0_9","pct_pairs_abs_r_ge_0_9"
+1960-02-01,2025-12-01,791,122,7381,0.132836143383558,0.0632297977179663,0.985324939372952,500,6.77414984419455,121,1.63934426229508,46,0.623221785665899

@@ -1,0 +1,104 @@
+"horizon","model","variable","description","pct_of_windows_selected"
+"1-month","Elastic Net","IPNMAT","IP: nondurable materials",0.416666666666667
+"1-month","Elastic Net","CES1021000001","Employment: mining & logging",0.416666666666667
+"3-month","Elastic Net","CES1021000001","Employment: mining & logging",5.88235294117647
+"6-month","Elastic Net","CES1021000001","Employment: mining & logging",64.2553191489362
+"6-month","Elastic Net","PERMITNE","Building permits: Northeast",42.5531914893617
+"6-month","Elastic Net","TB3SMFFM","Spread: 3-month T-bill - fed funds",38.7234042553192
+"6-month","Elastic Net","BAA","Baa corporate bond yield",36.5957446808511
+"6-month","Elastic Net","FEDFUNDS","Fed funds rate",34.0425531914894
+"6-month","Elastic Net","HOUSTNE","Housing starts: Northeast",22.9787234042553
+"6-month","Elastic Net","IPNMAT","IP: nondurable materials",21.2765957446809
+"6-month","Elastic Net","M2REAL","Real M2 money stock",20.8510638297872
+"6-month","Elastic Net","BUSINVx","Business inventories",17.0212765957447
+"6-month","Elastic Net","AMDMUOx","Unfilled orders: durable goods",11.9148936170213
+"6-month","Elastic Net","T1YFFM","Spread: 1-year Treasury - fed funds",10.2127659574468
+"6-month","Elastic Net","USWTRADE","Employment: wholesale trade",5.1063829787234
+"6-month","Elastic Net","DMANEMP","Employment: durable goods",2.97872340425532
+"6-month","Elastic Net","USGOVT","Employment: government",1.70212765957447
+"6-month","Elastic Net","S&P PE ratio","S&P 500 price-earnings ratio",1.70212765957447
+"6-month","Elastic Net","T10YFFM","Spread: 10-year Treasury - fed funds",0.425531914893617
+"6-month","Elastic Net","EXUSUKx","Exchange rate: USD per pound",0.425531914893617
+"12-month","Elastic Net","T1YFFM","Spread: 1-year Treasury - fed funds",93.0131004366812
+"12-month","Elastic Net","CES1021000001","Employment: mining & logging",75.1091703056769
+"12-month","Elastic Net","PERMITNE","Building permits: Northeast",64.1921397379913
+"12-month","Elastic Net","TB3SMFFM","Spread: 3-month T-bill - fed funds",55.4585152838428
+"12-month","Elastic Net","AMDMUOx","Unfilled orders: durable goods",53.2751091703057
+"12-month","Elastic Net","HOUSTNE","Housing starts: Northeast",40.6113537117904
+"12-month","Elastic Net","FEDFUNDS","Fed funds rate",36.6812227074236
+"12-month","Elastic Net","M2REAL","Real M2 money stock",30.1310043668122
+"12-month","Elastic Net","USWTRADE","Employment: wholesale trade",22.2707423580786
+"12-month","Elastic Net","USFIRE","Employment: financial activities",16.5938864628821
+"12-month","Elastic Net","CLAIMSx","Initial unemployment claims",10.4803493449782
+"12-month","Elastic Net","BUSINVx","Business inventories",10.0436681222707
+"12-month","Elastic Net","PERMITS","Building permits: South",7.86026200873363
+"12-month","Elastic Net","TB6SMFFM","Spread: 6-month T-bill - fed funds",7.4235807860262
+"12-month","Elastic Net","T10YFFM","Spread: 10-year Treasury - fed funds",6.98689956331878
+"12-month","Elastic Net","MANEMP","Employment: manufacturing",6.55021834061135
+"12-month","Elastic Net","PERMITMW","Building permits: Midwest",6.55021834061135
+"12-month","Elastic Net","GS5","5-year Treasury yield",6.11353711790393
+"12-month","Elastic Net","IPDMAT","IP: durable materials",5.67685589519651
+"12-month","Elastic Net","S&P PE ratio","S&P 500 price-earnings ratio",4.80349344978166
+"12-month","Elastic Net","T5YFFM","Spread: 5-year Treasury - fed funds",4.80349344978166
+"12-month","Elastic Net","HOUSTS","Housing starts: South",3.49344978165939
+"12-month","Elastic Net","HOUSTMW","Housing starts: Midwest",3.05676855895197
+"12-month","Elastic Net","ISRATIOx","Inventories / sales ratio",3.05676855895197
+"12-month","Elastic Net","PERMIT","Building permits: total",2.62008733624454
+"12-month","Elastic Net","INVEST","Securities in bank credit",2.18340611353712
+"12-month","Elastic Net","USGOOD","Employment: goods-producing",1.74672489082969
+"12-month","Elastic Net","IPMANSICS","IP: manufacturing",0.873362445414847
+"12-month","Elastic Net","UEMP27OV","Unemployed 27+ weeks",0.873362445414847
+"12-month","Elastic Net","USGOVT","Employment: government",0.873362445414847
+"12-month","Elastic Net","AAA","Aaa corporate bond yield",0.873362445414847
+"12-month","Elastic Net","DPCERA3M086SBEA","Real personal consumption",0.436681222707424
+"12-month","Elastic Net","IPBUSEQ","IP: business equipment",0.436681222707424
+"1-month","LASSO","IPNMAT","IP: nondurable materials",1.66666666666667
+"1-month","LASSO","CES1021000001","Employment: mining & logging",1.66666666666667
+"3-month","LASSO","CES1021000001","Employment: mining & logging",5.88235294117647
+"6-month","LASSO","CES1021000001","Employment: mining & logging",78.2978723404255
+"6-month","LASSO","PERMITNE","Building permits: Northeast",53.6170212765957
+"6-month","LASSO","FEDFUNDS","Fed funds rate",49.3617021276596
+"6-month","LASSO","TB3SMFFM","Spread: 3-month T-bill - fed funds",45.531914893617
+"6-month","LASSO","BAA","Baa corporate bond yield",43.8297872340426
+"6-month","LASSO","IPNMAT","IP: nondurable materials",21.2765957446809
+"6-month","LASSO","M2REAL","Real M2 money stock",21.2765957446809
+"6-month","LASSO","BUSINVx","Business inventories",16.1702127659574
+"6-month","LASSO","AMDMUOx","Unfilled orders: durable goods",13.6170212765957
+"6-month","LASSO","T1YFFM","Spread: 1-year Treasury - fed funds",13.6170212765957
+"6-month","LASSO","USWTRADE","Employment: wholesale trade",12.7659574468085
+"6-month","LASSO","HOUSTNE","Housing starts: Northeast",5.53191489361702
+"6-month","LASSO","USGOVT","Employment: government",5.1063829787234
+"6-month","LASSO","S&P PE ratio","S&P 500 price-earnings ratio",4.68085106382979
+"6-month","LASSO","DMANEMP","Employment: durable goods",2.12765957446809
+"6-month","LASSO","EXUSUKx","Exchange rate: USD per pound",1.27659574468085
+"6-month","LASSO","AAA","Aaa corporate bond yield",0.425531914893617
+"12-month","LASSO","T1YFFM","Spread: 1-year Treasury - fed funds",84.2794759825327
+"12-month","LASSO","CES1021000001","Employment: mining & logging",74.235807860262
+"12-month","LASSO","PERMITNE","Building permits: Northeast",65.938864628821
+"12-month","LASSO","TB3SMFFM","Spread: 3-month T-bill - fed funds",34.4978165938865
+"12-month","LASSO","AMDMUOx","Unfilled orders: durable goods",31.8777292576419
+"12-month","LASSO","FEDFUNDS","Fed funds rate",24.8908296943231
+"12-month","LASSO","M2REAL","Real M2 money stock",24.0174672489083
+"12-month","LASSO","USWTRADE","Employment: wholesale trade",16.5938864628821
+"12-month","LASSO","HOUSTNE","Housing starts: Northeast",10.0436681222707
+"12-month","LASSO","HOUSTMW","Housing starts: Midwest",8.73362445414847
+"12-month","LASSO","USFIRE","Employment: financial activities",8.29694323144105
+"12-month","LASSO","USGOOD","Employment: goods-producing",7.4235807860262
+"12-month","LASSO","MANEMP","Employment: manufacturing",6.55021834061135
+"12-month","LASSO","PERMITS","Building permits: South",6.55021834061135
+"12-month","LASSO","IPDMAT","IP: durable materials",6.11353711790393
+"12-month","LASSO","PERMITMW","Building permits: Midwest",5.67685589519651
+"12-month","LASSO","BUSINVx","Business inventories",5.67685589519651
+"12-month","LASSO","S&P PE ratio","S&P 500 price-earnings ratio",5.67685589519651
+"12-month","LASSO","ISRATIOx","Inventories / sales ratio",3.49344978165939
+"12-month","LASSO","AAA","Aaa corporate bond yield",3.05676855895197
+"12-month","LASSO","HOUSTS","Housing starts: South",2.18340611353712
+"12-month","LASSO","NDMANEMP","Employment: nondurable goods",1.74672489082969
+"12-month","LASSO","CLAIMSx","Initial unemployment claims",1.31004366812227
+"12-month","LASSO","EXUSUKx","Exchange rate: USD per pound",1.31004366812227
+"12-month","LASSO","PERMITW","Building permits: West",0.873362445414847
+"12-month","LASSO","S&P 500","S&P 500 index",0.873362445414847
+"12-month","LASSO","GS10","10-year Treasury yield",0.873362445414847
+"12-month","LASSO","AAAFFM","Spread: Aaa corporate - fed funds",0.873362445414847
+"12-month","LASSO","DPCERA3M086SBEA","Real personal consumption",0.436681222707424
+"12-month","LASSO","AWHMAN","Weekly hours: manufacturing",0.436681222707424

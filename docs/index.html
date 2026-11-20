@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Forecasting the US Equity Premium with Machine Learning</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Inter:wght@400;600&display=swap">
+<style>:root{--dark:#13213A;--light:#F5F3EE;--tone:#E9E5DC;--ink:#1B2333;--body:#4A5568;--accent:#A84B17;--accent-l:#F0A46B;--blue:#2B5BA8;--muted:#6B7385;}
+body{font-family:'Inter',Arial,sans-serif;}
+section{background:var(--light);color:var(--ink);padding:128px 128px 160px;box-sizing:border-box;display:flex;flex-direction:column;gap:44px;counter-increment:page;}
+section.dark{background:var(--dark);color:var(--light);}
+h1{font-family:'Space Grotesk',Arial,sans-serif;font-size:96px;font-weight:700;line-height:1.05;color:var(--light);}
+h2{font-family:'Space Grotesk',Arial,sans-serif;font-size:56px;font-weight:600;line-height:1.12;color:var(--ink);}
+section.dark h2{color:var(--light);}
+h3{font-family:'Space Grotesk',Arial,sans-serif;font-size:36px;font-weight:600;line-height:1.2;color:var(--ink);}
+p{font-size:28px;line-height:1.45;color:var(--body);}
+.eyebrow{font-size:24px;font-weight:600;letter-spacing:3px;color:var(--accent);}
+section.dark .eyebrow{color:var(--accent-l);}
+section.dark p{color:#C9D3E3;}
+.lede{font-size:36px;line-height:1.35;color:#C9D3E3;}
+.small{font-size:24px;color:var(--muted);}
+.footer{position:absolute;left:128px;bottom:64px;width:1664px;display:flex;justify-content:space-between;}
+.footer p{font-size:24px;color:var(--muted);}
+section.dark .footer p{color:#8E9AB0;}
+.cards{display:flex;gap:32px;}
+.card{flex:1;background:var(--tone);border-top:6px solid var(--accent);padding:36px 40px;display:flex;flex-direction:column;gap:16px;}
+.card.blue{border-top:6px solid var(--blue);}
+.big{font-family:'Space Grotesk',Arial,sans-serif;font-size:96px;font-weight:700;line-height:1;color:var(--accent);}
+section.dark .big{color:var(--accent-l);}
+.label{font-size:24px;font-weight:600;color:var(--muted);letter-spacing:2px;}
+.stats{display:flex;gap:64px;}
+.stat{display:flex;flex-direction:column;gap:8px;}
+.stat .num{font-family:'Space Grotesk',Arial,sans-serif;font-size:56px;font-weight:700;color:var(--accent-l);line-height:1.05;}
+.stat .cap{font-size:24px;color:#C9D3E3;}
+table{font-size:30px;color:var(--ink);width:100%;}
+tr.head{background:var(--dark);}
+tr.head th{color:var(--light);}
+tr.band{background:var(--tone);}
+td.best{color:var(--accent);}
+.row{display:flex;gap:56px;align-items:flex-start;}
+.col{display:flex;flex-direction:column;gap:24px;}
+.fade-in{animation:rise 600ms ease-out both;}
+@keyframes rise{from{opacity:0;transform:translateY(24px);}to{opacity:1;transform:translateY(0);}}
+
+html,body{margin:0;background:#0C1628;}
+h1,h2,h3,p,ul{margin:0;}
+table{border-collapse:collapse;} th,td{padding:0.35em 0.6em;text-align:left;}
+section{position:relative;width:1920px;height:1080px;overflow:hidden;transform-origin:top left;}
+.frame{margin:0 auto 24px;overflow:hidden;box-shadow:0 8px 32px rgba(0,0,0,.35);}
+</style></head><body>
+<div class="frame"><section id="cover" class="dark" style="justify-content:space-between;padding:128px;">
+<div class="col" style="gap:32px;">
+<p class="eyebrow">QUANTITATIVE RESEARCH · R</p>
+<h1 style="width:1500px;">Forecasting the US Equity Premium with Machine Learning</h1>
+<p class="lede" style="width:1400px;">Can 121 macroeconomic indicators beat the historical average return, and can the forecasts be traded?</p>
+</div>
+<div class="col" style="gap:40px;">
+<div class="stats">
+<div class="stat"><p class="num">121</p><p class="cap">FRED-MD predictors</p></div>
+<div class="stat"><p class="num">9 + 2</p><p class="cap">models + ensembles</p></div>
+<div class="stat"><p class="num">1960–2025</p><p class="cap">monthly, 30-year rolling windows</p></div>
+<div class="stat"><p class="num">1 · 3 · 6 · 12</p><p class="cap">month horizons</p></div>
+</div>
+<p style="font-size:24px;color:#8E9AB0;">Qian Yunhan · team project with Lin Ruiyu, Liu Yiwei and Wilbert C. Kurniawan</p>
+</div>
+
+</section>
+</div><div class="frame"><section id="question">
+<p class="eyebrow">THE QUESTION</p>
+<h2>Is the equity premium predictable out of sample?</h2>
+<div class="cards">
+<div class="card"><p class="label">1 · ACCURACY</p><h3>Do complexity-controlled models using FRED-MD beat the historical mean and unpenalised OLS?</h3></div>
+<div class="card blue"><p class="label">2 · ECONOMIC VALUE</p><h3>Do the forecasts improve a market / T-bill timing strategy against buy-and-hold?</h3></div>
+</div>
+<p style="width:1500px;">The historical mean is a notoriously hard benchmark: predictors that fit the past well rarely beat it on new data (Welch &amp; Goyal, 2008). Dong et al. (2022) find predictive value when overfitting is controlled. This project tests that idea with a broad macro information set.</p>
+<div class="footer"><p>Forecasting the US Equity Premium</p><p>2</p></div>
+</section>
+</div><div class="frame"><section id="data">
+<p class="eyebrow">DATA</p>
+<h2>A data-rich monthly panel, 1960–2025</h2>
+<div class="cards">
+<div class="card"><p class="label">PREDICTORS</p><p class="big">121</p><p>FRED-MD macro and financial series, made stationary with the FRED-MD transformation codes and lagged one month to avoid look-ahead. Current-month Mkt–RF is added.</p></div>
+<div class="card"><p class="label">TARGET</p><p class="big">Mkt–RF</p><p>Compounded h-month market excess return over T-bills, built from Kenneth French’s Mkt–RF and RF series, for h = 1, 3, 6 and 12 months.</p></div>
+<div class="card"><p class="label">SAMPLE</p><p class="big">792</p><p>Months from January 1960 to December 2025. Five incomplete series dropped; isolated gaps forward-filled before transformation.</p></div>
+</div>
+<div class="footer"><p>Forecasting the US Equity Premium</p><p>3</p></div>
+</section>
+</div><div class="frame"><section id="design">
+<p class="eyebrow">FORECASTING DESIGN</p>
+<h2>Rolling 30-year windows, strictly out of sample</h2>
+<div class="col" style="gap:12px;">
+<div style="display:flex;">
+<p class="small" style="width:818px;">1965</p><p class="small" style="width:300px;">1995</p><p class="small" style="width:446px;">2006</p><p class="small" style="width:100px;text-align:right;">2025</p>
+</div>
+<div style="display:flex;height:120px;">
+<div style="width:818px;background:#2B5BA8;padding:20px 28px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;"><p style="font-size:28px;color:#F5F3EE;font-weight:600;">First training window: 360 months</p><p style="font-size:24px;color:#DCE6F5;">re-estimated every month, rolling forward</p></div>
+<div style="width:300px;background:#F0A46B;padding:20px 24px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;"><p style="font-size:28px;color:#13213A;font-weight:600;">Validation</p><p style="font-size:24px;color:#13213A;">1995–2005</p></div>
+<div style="width:546px;background:#13213A;padding:20px 28px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;"><p style="font-size:28px;color:#F5F3EE;font-weight:600;">Test: 240 monthly forecasts</p><p style="font-size:24px;color:#C9D3E3;">2006–2025, all reported results</p></div>
+</div>
+</div>
+<ul style="font-size:30px;color:#4A5568;line-height:1.5;">
+<li>Direct h-step forecasts; every model refit each month on the latest 360 observations.</li>
+<li>Training rows enter only once their full h-month target is realised, so nothing leaks from the future.</li>
+<li>Penalties are chosen by BIC inside each window; validation is used only for PLS components and ensemble weights. Test data never touches tuning.</li>
+</ul>
+<div class="footer"><p>Forecasting the US Equity Premium</p><p>4</p></div>
+</section>
+</div><div class="frame"><section id="models">
+<p class="eyebrow">MODELS</p>
+<h2>From shrinkage to trees to combinations</h2>
+<table>
+<tr class="head"><th style="width:26%;">Group</th><th style="width:40%;">Models</th><th style="width:34%;">Tuning (inside each window)</th></tr>
+<tr><td>Benchmarks</td><td>Historical mean · Full OLS</td><td>none</td></tr>
+<tr class="band"><td>Penalised regression</td><td>Ridge · LASSO · Elastic Net (α = 0.5)</td><td>λ by BIC</td></tr>
+<tr><td>Dimension reduction</td><td>PC + LASSO (4 PCs) · PLS</td><td>BIC / validation RMSE</td></tr>
+<tr class="band"><td>Tree ensembles</td><td>Bagging · Random forest</td><td>defaults, fixed seeds</td></tr>
+<tr><td>Combinations</td><td>Equal-weight · Granger–Ramanathan</td><td>weights on validation</td></tr>
+</table>
+<p style="width:1500px;">Principal components are re-estimated within every window, and Granger–Ramanathan weights are constrained to be non-negative and sum to one, so no step uses information from the test period.</p>
+<div class="footer"><p>Forecasting the US Equity Premium</p><p>5</p></div>
+</section>
+</div><div class="frame"><section id="evaluation">
+<p class="eyebrow">EVALUATION</p>
+<h2>Statistical accuracy and economic value</h2>
+<div class="cards">
+<div class="card blue"><p class="label">FORECAST ACCURACY</p>
+<ul style="font-size:30px;color:#4A5568;line-height:1.5;">
+<li>OOS R² = 1 − SSE(model) / SSE(historical mean)</li>
+<li>RMSE and MAE</li>
+<li>Diebold–Mariano test vs the mean, Newey–West variance (lag 6; 11 at 12 months) for overlapping errors</li>
+</ul></div>
+<div class="card"><p class="label">TRADING STRATEGY</p>
+<ul style="font-size:30px;color:#4A5568;line-height:1.5;">
+<li>Positive forecast → 100% market; otherwise 100% T-bills</li>
+<li>For h &gt; 1, average the h overlapping positions and rebalance monthly</li>
+<li>0.1% transaction cost; terminal wealth, Sharpe ratio, maximum drawdown</li>
+</ul></div>
+</div>
+<p><b style="color:#1B2333;">Robustness:</b> every model re-run with four lags of each predictor (488 inputs).</p>
+<div class="footer"><p>Forecasting the US Equity Premium</p><p>6</p></div>
+</section>
+</div><div class="frame"><section id="accuracy">
+<p class="eyebrow">FINDING 1 · ACCURACY</p>
+<h2>Gains are small, and none is statistically significant</h2>
+<div class="row">
+<div style="width:1020px;">
+<table>
+<tr class="head"><th style="width:36%;">OOS R² (%)</th><th style="width:16%;text-align:right;">1m</th><th style="width:16%;text-align:right;">3m</th><th style="width:16%;text-align:right;">6m</th><th style="width:16%;text-align:right;">12m</th></tr>
+<tr><td>LASSO</td><td class="best" style="text-align:right;">+0.15</td><td style="text-align:right;">−0.35</td><td style="text-align:right;">+3.11</td><td style="text-align:right;">+2.23</td></tr>
+<tr class="band"><td>Elastic Net</td><td style="text-align:right;">+0.10</td><td style="text-align:right;">−0.32</td><td style="text-align:right;">+1.18</td><td class="best" style="text-align:right;">+3.33</td></tr>
+<tr><td>PC + LASSO</td><td class="best" style="text-align:right;">+0.15</td><td style="text-align:right;">−0.35</td><td class="best" style="text-align:right;">+3.12</td><td style="text-align:right;">+2.23</td></tr>
+<tr class="band"><td>PLS</td><td style="text-align:right;">−33.3</td><td style="text-align:right;">−46.4</td><td style="text-align:right;">−23.3</td><td style="text-align:right;">−8.6</td></tr>
+<tr><td>Random forest</td><td style="text-align:right;">−7.4</td><td style="text-align:right;">−11.2</td><td style="text-align:right;">−10.1</td><td style="text-align:right;">−13.0</td></tr>
+<tr class="band"><td>Ensemble (equal)</td><td style="text-align:right;">−2.4</td><td style="text-align:right;">−5.5</td><td style="text-align:right;">−1.3</td><td style="text-align:right;">+1.2</td></tr>
+<tr><td>Full OLS</td><td style="text-align:right;">−560</td><td style="text-align:right;">−1,136</td><td style="text-align:right;">−4,145</td><td style="text-align:right;">−857</td></tr>
+</table>
+<p class="small" style="margin-top:16px;">Best per horizon in orange. Ridge = 0.00 everywhere; bagging below −9%. At 3 months nothing beats the mean.</p>
+</div>
+<div class="card" style="flex:1;"><p class="label">DIEBOLD–MARIANO VS MEAN</p><p class="big">p ≥ 0.15</p><p>Best model at every horizon fails to beat the historical mean at the 10% level (p = 0.15–0.49).</p><p>Consistent with Welch &amp; Goyal (2008).</p></div>
+</div>
+<div class="footer"><p>Forecasting the US Equity Premium</p><p>7</p></div>
+</section>
+</div><div class="frame"><section id="shrinkage" class="dark">
+<p class="eyebrow">FINDING 2 · OVERFITTING</p>
+<h2>Regularisation tames overfitting, mostly by shrinking back to the mean</h2>
+<div class="cards">
+<div class="card" style="background:#1E2F4D;border-top:6px solid #F0A46B;"><p class="big">−4,145%</p><p>Full OLS out-of-sample R² at 6 months: 122 unpenalised predictors fit noise.</p></div>
+<div class="card" style="background:#1E2F4D;border-top:6px solid #F0A46B;"><p class="big">0.00</p><p>Ridge at every horizon: BIC shrinks every coefficient to about zero, so the forecast is the mean.</p></div>
+<div class="card" style="background:#1E2F4D;border-top:6px solid #F0A46B;"><p class="big">97%</p><p>Share of 12-month windows where LASSO keeps any predictor, vs only 2% at 1 month.</p></div>
+</div>
+<p style="width:1500px;">At short horizons BIC almost always selects nothing, so the “model” is the historical mean. Only at 6–12 months do predictors survive, and that is where the small gains appear.</p>
+<div class="footer"><p>Forecasting the US Equity Premium</p><p>8</p></div>
+</section>
+</div><div class="frame"><section id="signal">
+<p class="eyebrow">FINDING 3 · INTERPRETATION</p>
+<h2>Where the 12-month signal comes from</h2>
+<div class="row" style="gap:48px;">
+<div style="flex:1;">
+<table>
+<tr class="head"><th style="width:72%;">Elastic Net: kept in % of windows</th><th style="width:28%;text-align:right;">%</th></tr>
+<tr><td>1-yr Treasury − fed funds</td><td style="text-align:right;">93</td></tr>
+<tr class="band"><td>Mining &amp; logging jobs</td><td style="text-align:right;">75</td></tr>
+<tr><td>Building permits (Northeast)</td><td style="text-align:right;">64</td></tr>
+<tr class="band"><td>3-mo T-bill − fed funds</td><td style="text-align:right;">55</td></tr>
+<tr><td>Unfilled durable orders</td><td style="text-align:right;">53</td></tr>
+</table>
+</div>
+<div style="flex:1;">
+<table>
+<tr class="head"><th style="width:72%;">Random forest importance</th><th style="width:28%;text-align:right;">%IncMSE</th></tr>
+<tr><td>1-yr Treasury − fed funds</td><td style="text-align:right;">12.3</td></tr>
+<tr class="band"><td>5-yr Treasury − fed funds</td><td style="text-align:right;">12.0</td></tr>
+<tr><td>10-yr Treasury − fed funds</td><td style="text-align:right;">11.1</td></tr>
+<tr class="band"><td>Building permits (total)</td><td style="text-align:right;">9.6</td></tr>
+<tr><td>Building permits (West)</td><td style="text-align:right;">9.5</td></tr>
+</table>
+</div>
+</div>
+<p style="width:1550px;">A linear and a nonlinear model agree: <b style="color:#1B2333;">yield-curve spreads and housing activity</b> carry the signal. Caveat: these spreads are very persistent (AR(1) 0.87–0.97) and 12-month returns overlap, so they can look more useful than they are.</p>
+<div class="footer"><p>Forecasting the US Equity Premium</p><p>9</p></div>
+</section>
+</div><div class="frame"><section id="trading">
+<p class="eyebrow">FINDING 4 · TRADING</p>
+<h2>The best forecast is not the best trade</h2>
+<div class="row" style="gap:48px;align-items:center;">
+<img src="wealth.png" alt="Value of 100 dollars, 2006 to 2025, for the 1-month strategies: equal-weight ensemble 905, LASSO 833, buy and hold 815, random forest 558, T-bills 138" style="width:1000px;height:307px;object-fit:contain;background:#FFFFFF;">
+<div class="col" style="flex:1;gap:20px;">
+<p class="label">1-MONTH STRATEGY, 2006–2025</p>
+<table>
+<tr class="head"><th style="width:34%;"></th><th style="width:30%;text-align:right;">Ensemble</th><th style="width:36%;text-align:right;">Buy-hold</th></tr>
+<tr><td>$100 →</td><td class="best" style="text-align:right;">$905</td><td style="text-align:right;">$815</td></tr>
+<tr class="band"><td>Sharpe</td><td class="best" style="text-align:right;">0.75</td><td style="text-align:right;">0.65</td></tr>
+<tr><td>Max DD</td><td class="best" style="text-align:right;">22%</td><td style="text-align:right;">50%</td></tr>
+</table>
+</div>
+</div>
+<p style="width:1600px;">The most accurate models rarely forecast a negative return, so they stay invested and match buy-and-hold. Trees and PLS exit too often and lag. The equal-weight ensemble’s edge comes mainly from exiting during the 2008 crisis: one episode, not robust evidence.</p>
+<div class="footer"><p>Forecasting the US Equity Premium</p><p>10</p></div>
+</section>
+</div><div class="frame"><section id="pipeline">
+<p class="eyebrow">ENGINEERING</p>
+<h2>Built to be reproducible</h2>
+<div style="display:flex;align-items:stretch;gap:20px;">
+<div class="card blue" style="flex:1;"><p class="label">RAW DATA</p><p style="font-size:26px;">FRED-MD vintage and Fama–French files, versioned in the repo</p></div>
+<x-shape kind="arrow-right" style="width:48px;height:24px;background:#A84B17;align-self:center;"></x-shape>
+<div class="card blue" style="flex:1;"><p class="label">PANEL</p><p style="font-size:26px;">Transform, lag and build compounded targets with assertion checks</p></div>
+<x-shape kind="arrow-right" style="width:48px;height:24px;background:#A84B17;align-self:center;"></x-shape>
+<div class="card blue" style="flex:1;"><p class="label">MODELS</p><p style="font-size:26px;">One script per model fits each rolling window and caches forecasts</p></div>
+<x-shape kind="arrow-right" style="width:48px;height:24px;background:#A84B17;align-self:center;"></x-shape>
+<div class="card blue" style="flex:1;"><p class="label">EVALUATION</p><p style="font-size:26px;">One script rebuilds every metric, test, trade and chart</p></div>
+</div>
+<ul style="font-size:30px;color:#4A5568;line-height:1.5;">
+<li>One command runs the whole pipeline; fitting is separated from evaluation, so results regenerate from cached forecasts in seconds.</li>
+<li>Fixed seeds for tree models; lag specification set in one config file; robustness run on the same code.</li>
+<li>R: glmnet, HDeconometrics (BIC), pls, randomForest, sandwich (Newey–West), lsei (constrained weights). Version-controlled on GitHub.</li>
+</ul>
+<div class="footer"><p>Forecasting the US Equity Premium</p><p>11</p></div>
+</section>
+</div><div class="frame"><section id="takeaways" class="dark">
+<p class="eyebrow">TAKEAWAYS</p>
+<h2>What the evidence says</h2>
+<div class="cards">
+<div class="card" style="background:#1E2F4D;border-top:6px solid #F0A46B;"><h3 style="color:#F5F3EE;">Little reliable predictability</h3><p>No model significantly beats the historical mean at any horizon, in line with Welch &amp; Goyal (2008).</p></div>
+<div class="card" style="background:#1E2F4D;border-top:6px solid #F0A46B;"><h3 style="color:#F5F3EE;">Shrinkage is the safe default</h3><p>It removes OLS’s overfitting, but the safest forecast stays close to the mean.</p></div>
+<div class="card" style="background:#1E2F4D;border-top:6px solid #F0A46B;"><h3 style="color:#F5F3EE;">Accuracy ≠ trading value</h3><p>Models minimise squared error, while the strategy only uses the sign of the forecast.</p></div>
+</div>
+<div class="col" style="gap:12px;">
+<p class="label" style="color:#8E9AB0;">NEXT STEPS</p>
+<p>Test over more downturns with real-time data vintages and publication lags; train for direction, or use a loss that penalises missed downturns.</p>
+</div>
+<div class="footer"><p>Forecasting the US Equity Premium</p><p>12</p></div>
+</section>
+</div>
+<script>
+function fit(){var w=Math.min(window.innerWidth-32,1920),k=w/1920;
+document.querySelectorAll('.frame').forEach(function(f){f.style.width=w+'px';f.style.height=(1080*k)+'px';f.firstElementChild.style.transform='scale('+k+')';});}
+window.addEventListener('resize',fit);fit();
+</script>
+</body></html>

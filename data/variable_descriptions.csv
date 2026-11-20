@@ -1,0 +1,123 @@
+code,description,group
+RPI,Real personal income,Output & income
+W875RX1,Real personal income excl. transfers,Output & income
+DPCERA3M086SBEA,Real personal consumption,Consumption & orders
+CMRMTSPLx,Real manufacturing & trade sales,Consumption & orders
+RETAILx,Retail & food services sales,Consumption & orders
+INDPRO,Industrial production (total),Output & income
+IPFPNSS,IP: final products & nonindustrial supplies,Output & income
+IPFINAL,IP: final products,Output & income
+IPCONGD,IP: consumer goods,Output & income
+IPDCONGD,IP: durable consumer goods,Output & income
+IPNCONGD,IP: nondurable consumer goods,Output & income
+IPBUSEQ,IP: business equipment,Output & income
+IPMAT,IP: materials,Output & income
+IPDMAT,IP: durable materials,Output & income
+IPNMAT,IP: nondurable materials,Output & income
+IPMANSICS,IP: manufacturing,Output & income
+IPB51222S,IP: residential utilities,Output & income
+IPFUELS,IP: fuels,Output & income
+CUMFNS,Capacity utilisation: manufacturing,Output & income
+HWI,Help-wanted index,Labour market
+HWIURATIO,Help-wanted / unemployed ratio,Labour market
+CLF16OV,Civilian labour force,Labour market
+CE16OV,Civilian employment,Labour market
+UNRATE,Unemployment rate,Labour market
+UEMPMEAN,Average duration of unemployment,Labour market
+UEMPLT5,Unemployed < 5 weeks,Labour market
+UEMP5TO14,Unemployed 5-14 weeks,Labour market
+UEMP15OV,Unemployed 15+ weeks,Labour market
+UEMP15T26,Unemployed 15-26 weeks,Labour market
+UEMP27OV,Unemployed 27+ weeks,Labour market
+CLAIMSx,Initial unemployment claims,Labour market
+PAYEMS,Employment: total nonfarm,Labour market
+USGOOD,Employment: goods-producing,Labour market
+CES1021000001,Employment: mining & logging,Labour market
+USCONS,Employment: construction,Labour market
+MANEMP,Employment: manufacturing,Labour market
+DMANEMP,Employment: durable goods,Labour market
+NDMANEMP,Employment: nondurable goods,Labour market
+SRVPRD,Employment: service-providing,Labour market
+USTPU,"Employment: trade, transport & utilities",Labour market
+USWTRADE,Employment: wholesale trade,Labour market
+USTRADE,Employment: retail trade,Labour market
+USFIRE,Employment: financial activities,Labour market
+USGOVT,Employment: government,Labour market
+CES0600000007,Weekly hours: goods-producing,Labour market
+AWOTMAN,Weekly overtime hours: manufacturing,Labour market
+AWHMAN,Weekly hours: manufacturing,Labour market
+HOUST,Housing starts: total,Housing
+HOUSTNE,Housing starts: Northeast,Housing
+HOUSTMW,Housing starts: Midwest,Housing
+HOUSTS,Housing starts: South,Housing
+HOUSTW,Housing starts: West,Housing
+PERMIT,Building permits: total,Housing
+PERMITNE,Building permits: Northeast,Housing
+PERMITMW,Building permits: Midwest,Housing
+PERMITS,Building permits: South,Housing
+PERMITW,Building permits: West,Housing
+AMDMNOx,New orders: durable goods,Consumption & orders
+AMDMUOx,Unfilled orders: durable goods,Consumption & orders
+BUSINVx,Business inventories,Consumption & orders
+ISRATIOx,Inventories / sales ratio,Consumption & orders
+M1SL,M1 money stock,Money & credit
+M2SL,M2 money stock,Money & credit
+M2REAL,Real M2 money stock,Money & credit
+BOGMBASE,Monetary base,Money & credit
+TOTRESNS,Total bank reserves,Money & credit
+NONBORRES,Nonborrowed reserves,Money & credit
+BUSLOANS,Commercial & industrial loans,Money & credit
+REALLN,Real estate loans,Money & credit
+NONREVSL,Nonrevolving consumer credit,Money & credit
+CONSPI,Consumer credit / personal income,Money & credit
+S&P 500,S&P 500 index,Stock market
+S&P div yield,S&P 500 dividend yield,Stock market
+S&P PE ratio,S&P 500 price-earnings ratio,Stock market
+FEDFUNDS,Fed funds rate,Interest rates
+CP3Mx,3-month commercial paper rate,Interest rates
+TB3MS,3-month T-bill rate,Interest rates
+TB6MS,6-month T-bill rate,Interest rates
+GS1,1-year Treasury yield,Interest rates
+GS5,5-year Treasury yield,Interest rates
+GS10,10-year Treasury yield,Interest rates
+AAA,Aaa corporate bond yield,Interest rates
+BAA,Baa corporate bond yield,Interest rates
+COMPAPFFx,Spread: commercial paper - fed funds,Interest rates
+TB3SMFFM,Spread: 3-month T-bill - fed funds,Interest rates
+TB6SMFFM,Spread: 6-month T-bill - fed funds,Interest rates
+T1YFFM,Spread: 1-year Treasury - fed funds,Interest rates
+T5YFFM,Spread: 5-year Treasury - fed funds,Interest rates
+T10YFFM,Spread: 10-year Treasury - fed funds,Interest rates
+AAAFFM,Spread: Aaa corporate - fed funds,Interest rates
+BAAFFM,Spread: Baa corporate - fed funds,Interest rates
+EXSZUSx,Exchange rate: Swiss franc per USD,Exchange rates
+EXJPUSx,Exchange rate: yen per USD,Exchange rates
+EXUSUKx,Exchange rate: USD per pound,Exchange rates
+EXCAUSx,Exchange rate: Canadian dollar per USD,Exchange rates
+WPSFD49207,PPI: finished goods,Prices
+WPSFD49502,PPI: finished consumer goods,Prices
+WPSID61,PPI: intermediate materials,Prices
+WPSID62,PPI: crude materials,Prices
+OILPRICEx,Crude oil price,Prices
+PPICMM,PPI: metals,Prices
+CPIAUCSL,CPI: all items,Prices
+CPIAPPSL,CPI: apparel,Prices
+CPITRNSL,CPI: transportation,Prices
+CPIMEDSL,CPI: medical care,Prices
+CUSR0000SAC,CPI: commodities,Prices
+CUSR0000SAD,CPI: durables,Prices
+CUSR0000SAS,CPI: services,Prices
+CPIULFSL,CPI: all items less food,Prices
+CUSR0000SA0L2,CPI: all items less shelter,Prices
+CUSR0000SA0L5,CPI: all items less medical care,Prices
+PCEPI,PCE price index,Prices
+DDURRG3M086SBEA,PCE prices: durable goods,Prices
+DNDGRG3M086SBEA,PCE prices: nondurable goods,Prices
+DSERRG3M086SBEA,PCE prices: services,Prices
+CES0600000008,Hourly earnings: goods-producing,Labour market
+CES2000000008,Hourly earnings: construction,Labour market
+CES3000000008,Hourly earnings: manufacturing,Labour market
+DTCOLNVHFNM,Consumer motor vehicle loans,Money & credit
+DTCTHFNM,Total consumer loans & leases,Money & credit
+INVEST,Securities in bank credit,Money & credit
+Mkt_RF,Market excess return (this month),Stock market

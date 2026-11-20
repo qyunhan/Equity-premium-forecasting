@@ -1,0 +1,5 @@
+"horizon","Ridge","LASSO","Elastic Net","PC + LASSO","PLS","Bagging","Random Forest"
+"1-month",0.25,0.25,0.25,0.25,0,0,0
+"3-month",1,0,0,0,0,0,0
+"6-month",1,0,0,0,0,0,0
+"12-month",1,0,0,0,0,0,0
