@@ -6,7 +6,7 @@ This project forecasts monthly US market excess returns (Fama–French Mkt–RF)
 
 ## Results
 
-👉 **[View the results slides](https://qyunhan.github.io/equity-premium-forecasting/)**: methodology, findings and trading performance in 12 slides.
+👉 **[View the results slides](https://qyunhan.github.io/Equity-premium-forecasting/)**: methodology, findings and trading performance in 12 slides.
 
 (Offline: open [`docs/index.html`](docs/index.html) in a browser.)
 
